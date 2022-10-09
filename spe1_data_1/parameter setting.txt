@@ -1,0 +1,8 @@
+%% Set up the problem
+% Because several examples use the SPE1 dataset, the initial setup is
+% delegated to a helper function. See the inside for documentation.
+[G, rock, fluid, deck, state] = setupSPE1();
+
+p = gaussianField(G.cartDims, [0.2 0.4], 11, 2);
+K = p.^3.*(1e-5)^2./(0.81*72*(1-p).^2);
+rock = makeRock(G, K(:), p(:));
