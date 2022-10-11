@@ -1,5 +1,14 @@
+### Introduction
 This Github page is for LSTM and MSRT learning on the co2 sequestration
 
 Data are collected in data, spe1_data_1, spe1_data_2, spe1_data_3 files
 
 Clustered LSTM codes are collected in Clustered_LSTM file
+
+
+
+### Outcome
+Main Evaluations:
++ Computational Accuracy
+
++ Computational Time
