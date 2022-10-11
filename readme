@@ -1,4 +1,4 @@
-### Introduction
+Introduction
 This Github page is for LSTM and MSRT learning on the co2 sequestration
 
 Data are collected in data, spe1_data_1, spe1_data_2, spe1_data_3 files
@@ -7,8 +7,17 @@ Clustered LSTM codes are collected in Clustered_LSTM file
 
 
 
-### Outcome
+Outcome
 Main Evaluations:
-+ Computational Accuracy
+1. Computational Accuracy
+    a) Root Mean Sqaure Error & Accuracy
+        Without Clustering, the accuracy is range in 94%-96%
+        With Clustering in 15 clusters, the accuracy is range in 90%-94%
+    b) Mean Absolute Error & Accuracy
+        Without Clustering, the accuracy is range in 97%-98%
+        With Clustering in 15 clusters, the accuracy is range in 96%-97%
 
-+ Computational Time
+2. Computational Time (in seconds)
+    Without Clustering: 14s-20s
+    With Clustering in 15 clusters: <1s
+    MRST: 25s or 35s
